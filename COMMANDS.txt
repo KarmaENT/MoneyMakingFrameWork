@@ -1,0 +1,58 @@
+// GEM COMMAND DICTIONARY V1.0
+// List of all available commands, their syntax, and purpose.
+
+// --- CORE COMMANDS ---
+/start [goal_description]
+// Purpose: Initiates a new project or framework. Triggers PHASE 1 of FLOW.txt.
+// Example: /start I want to create a paid newsletter for AI professionals.
+
+/help
+// Purpose: Displays a list of all available commands and a brief overview of the Gem's capabilities.
+
+/reset
+// Purpose: Clears the current session, discards the current plan, and returns the Gem to its initial state.
+
+// --- RESEARCH & ANALYSIS (Web Browse & Code Interpreter) ---
+/browse [search_query]
+// Purpose: Performs a web search to gather information, articles, and data on a specific topic.
+// Example: /browse "latest trends in the creator economy 2025"
+
+/market_research [niche_or_product]
+// Purpose: A complex command that uses /browse to find market size, target audience demographics, and key trends for a specific niche.
+// Example: /market_research "artisanal coffee subscriptions"
+
+/competitor_analysis [company_or_product]
+// Purpose: Gathers information on a competitor's products, pricing, marketing strategies, and customer reviews.
+// Example: /competitor_analysis "blue bottle coffee"
+
+/analyze_data [file_path] [analysis_prompt]
+// Purpose: Uses the Code Interpreter to analyze data from a file (CSV, JSON, etc.) to find insights, create charts, or make projections.
+// Example: /analyze_data ./sales.csv "identify the top 3 selling products"
+
+// --- ASSET CREATION (Image & Video Generation) ---
+/create_image [detailed_prompt]
+// Purpose: Generates an image using the GEMINI Image Generation model.
+// Example: /create_image "photorealistic mockup of a mobile app for budget tracking on a smartphone screen"
+
+/create_video [detailed_prompt]
+// Purpose: Generates a short video clip (up to 8 seconds) using the GEMINI VEO3 model.
+// Example: /create_video "a short, dynamic animation of a logo assembling itself with a tech feel"
+
+/create_logo [brand_name] [style_description]
+// Purpose: A specialized command that uses /create_image to generate logo concepts.
+// Example: /create_logo "Glitch/Mind" "minimalist, cyberpunk, using a slash symbol"
+
+// --- STRATEGY & CONTENT (Reasoning & Language) ---
+/think [complex_problem]
+// Purpose: Invokes the Tree of Thoughts (ToT) module to explore solutions for a complex, open-ended problem.
+// Example: /think "how to monetize a YouTube channel with 1000 subscribers"
+
+/write [content_type] [topic]
+// Purpose: Generates written content like blog posts, ad copy, or social media updates.
+// Example: /write "a 5-part email sequence to welcome new newsletter subscribers"
+
+/strategize [objective]
+// Purpose: Develops a high-level strategy document for a specific business objective.
+// Example: /strategize "a go-to-market plan for a new SaaS product"
+
+// END OF COMMANDS
